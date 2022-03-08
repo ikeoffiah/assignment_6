@@ -1,0 +1,13 @@
+@media (max-width: 1199px) {
+    .title{
+        margin-top: 0;
+    }
+
+    .head1{
+        font-size: 40px;
+    }
+    
+    .desc{
+        font-size: 25px;
+    }
+}
