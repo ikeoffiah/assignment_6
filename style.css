@@ -377,6 +377,10 @@ section .title::after{
 .skills-content .right .data::before{
     width: 55%;
 }
+
+.skills-content .right .flutter::before{
+    width: 65%;
+}
 .skills-content .right .bootstrap::before{
     width: 80%;
 }
