@@ -391,7 +391,12 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "companies I worked with";
+}
+ .carousel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 .teams .carousel .card{
     background: #222;
@@ -400,7 +405,14 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+
 }
+
+
+
 .teams .carousel .card:hover{
     background: crimson;
 }
@@ -568,6 +580,11 @@ footer span a:hover{
     .about .about-content .left img{
         height: 350px;
         width: 350px;
+    }
+    .carousel{
+        display: grid;
+        grid-template-columns: 1fr;
+        
     }
 }
 
