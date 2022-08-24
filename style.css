@@ -391,12 +391,13 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "companies I worked with";
+    content: "companies";
 }
  .carousel{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
+    text-align: center;
 }
 .teams .carousel .card{
     background: #222;
@@ -405,8 +406,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    
     
 
 }
@@ -417,32 +417,33 @@ section .title::after{
     background: crimson;
 }
 .teams .carousel .card .box{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
+    justify-content: center; */
+    /* transition: all 0.3s ease; */
 }
-.teams .carousel .card:hover .box{
+/* .teams .carousel .card:hover .box{
     transform: scale(1.05);
-}
+}*/
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+} 
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
+    align-items: center;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
-.owl-dots{
+/* .owl-dots{
     text-align: center;
     margin-top: 20px;
 }
@@ -462,7 +463,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
+} */
 
 /* contact section styling */
 .contact .title::after{
